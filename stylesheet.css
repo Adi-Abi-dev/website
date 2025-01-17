@@ -1,0 +1,166 @@
+body{
+  background-color: inherit;
+  margin-top: 100px;
+  margin-left: 160px;
+  overflow-x: hidden;
+}
+
+.seitenleiste {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: inherit;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: block;
+  align-content: start;
+}
+
+.seitenleiste a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  display: flex;
+
+}
+.aboutme{
+  margin-top: 300px;
+  text-align: left;
+}
+.startseite{
+  margin-bottom: 15rem;
+  margin-top: 14px;
+}
+
+.seitenleiste td a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  width: 1px;
+}
+
+.seitenleiste a:hover {
+  color: #f1f1f1;
+  background-image: radial-gradient(green, green);
+  transition: 0.5s;
+}
+
+.seitenleiste table tr td a:hover {
+  color: white;
+  transition: 0.5s;
+  font-size: 50px;
+}
+
+.titelleiste{
+  display:flex;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+  background-color: inherit;
+  height:100px;
+  width: 100%;
+  font-palette: light;
+}
+.suchleiste {
+  display: flex;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 40px;
+  font: 30px "Arial Black";
+}
+
+.tiere{
+  margin-left: 45px;
+}
+
+.tiere .info img{
+  max-height: 190px;
+  max-width: 275px;
+}
+
+h1{
+  font: 20px "Arial";
+  font-size: 60px;
+  margin-top: 0.67px;
+  margin-bottom: 0.67px;
+  margin-left: 50%;
+}
+
+h2 {
+  color: black;
+  font: 20px "Arial";
+  font-size: 30px;
+  margin-top: 0.5%;
+  margin-bottom: 0.1%;
+  left: 100px;
+  text-decoration: none;
+}
+
+
+h3 {
+  display: flex;
+  color: white;
+  font: 3vw "Times New Roman";
+  margin-top: 10px;
+  margin-left: 20vw;
+}
+
+.info{
+  display: flex;
+}
+
+.gif{
+  position: absolute;
+}
+.gif:hover{
+  opacity: 0;
+}
+
+.tiere .info img{
+  display: flex;
+  width: 300px;
+  height: 183px;
+}
+
+.info p{
+  font-size: 30px;
+  text-align: center;
+}
+
+p{
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  font-size: 14px;
+  left: 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.highlight{
+  background-color: yellow;
+}
